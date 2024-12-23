@@ -101,6 +101,20 @@ git commit -m "add another exclamation"
 
 ## Branches
 
+List of branches
+```
+git branch
+```
+
+Create a new branch
+```
+git branch <branch-name>
+```
+
+Checkout the branch
+```
+git checkout <branch-name>
+```
 
 ## Remotes
 
