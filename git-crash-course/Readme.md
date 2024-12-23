@@ -36,6 +36,28 @@ git clone https://github.com/andrew-wc-brown/Github-Examples.git
 cd GitHub-Examples
 ```
 
+> You'll need to generate a Personal Access Token (PAT)
+https://github.com/settings/token
+
+You will use the PAT as the password when you login
+- Give it access to Contents for commit.
+
+### SSH 
+
+```ssh
+git clone git@github.com:Open-Source-Forge/git-prac.git
+cd GitHub-Examples
+```
+We will need to create our own SSH rsa key pair
+
+```sh
+sshe-keygen -t rsa
+```
+
+We can test our connection here:
+```
+ssh -T git@github.com
+```
 
 ## Commits
 
